@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
+    implementation(project(":shared:persistence"))
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("org.postgresql:postgresql")
 }

@@ -1,4 +1,4 @@
-package io.ccdc.search.model
+package io.ccdc.shared.persistence.model
 
 import jakarta.persistence.*
 

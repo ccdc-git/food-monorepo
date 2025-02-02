@@ -1,8 +1,8 @@
 package io.ccdc.admin.service
 
 import io.ccdc.admin.exception.FoodAlreadyExistsException
-import io.ccdc.admin.model.Food
-import io.ccdc.admin.repository.FoodRepository
+import io.ccdc.shared.persistence.model.Food
+import io.ccdc.shared.persistence.repository.FoodRepository
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.stereotype.Service
 

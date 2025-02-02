@@ -1,6 +1,6 @@
 package io.ccdc.search.controller
 
-import io.ccdc.search.model.Food
+import io.ccdc.shared.persistence.model.Food
 import io.ccdc.search.service.FoodService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

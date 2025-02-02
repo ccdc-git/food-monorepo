@@ -1,8 +1,8 @@
 package io.ccdc.admin.controller
 
 import io.ccdc.admin.controller.dto.FoodRequest
-import io.ccdc.admin.model.Food
 import io.ccdc.admin.service.FoodService
+import io.ccdc.shared.persistence.model.Food
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
