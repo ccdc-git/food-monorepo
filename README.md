@@ -13,6 +13,20 @@ This module is a simple REST API that returns a list of foods in database.
 This module is for adding new foods to the database.
 
 ## Running the project
+### Prepare the database
+
+To run this project, you need to hava a postgres database running.
+After that, you need to create a database called `food` and a user with the following credentials:
+- username: `admin`
+- password: `admin`
+You can make user with the following command:
+```shell
+psql -U postgres -c "CREATE USER admin WITH PASSWORD 'admin';"
+psql -U postgres -c "CREATE DATABASE food;"
+psql -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE food TO admin;"
+```
+
+### Running the project
 To run the project, you can use the following command:
 ```shell
 # Build admin
